@@ -1,0 +1,12 @@
+fastapi>=0.95.0
+uvicorn>=0.21.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+httpx>=0.24.0
+loguru>=0.7.0
+pytest>=7.3.1
+pytest-asyncio>=0.21.0
+jsonschema>=4.17.3
+aiofiles>=23.1.0
+python-multipart>=0.0.6

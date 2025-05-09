@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Cognition Sequence",
+  "description": "A schema for representing synthetic cognition sequences",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the sequence"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the cognition sequence"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the cognition sequence"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Creation timestamp"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Last update timestamp"
+    },
+    "rows": {
+      "type": "array",
+      "description": "Rows in the cognition sequence",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Row identifier"
+          },
+          "goal": {
+            "type": "string",
+            "description": "Goal or objective for this step"
+          },
+          "beliefs": {
+            "type": "array",
+            "description": "List of beliefs held at this step",
+            "items": {
+              "type": "object",
+              "properties": {
+                "content": {
+                  "type": "string",
+                  "description": "Content of the belief"
+                },
+                "confidence": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1,
+                  "description": "Confidence level (0-1)"
+                },
+                "source": {
+                  "type": "string",
+                  "description": "Source of the belief"
+                }
+              },
+              "required": ["content", "confidence"]
+            }
+          },
+          "operation": {
+            "type": "string",
+            "description": "Operation or action taken"
+          },
+          "output": {
+            "type": "string",
+            "description": "Result or output of the operation"
+          },
+          "metadata": {
+            "type": "object",
+            "description": "Additional metadata for the row"
+          }
+        },
+        "required": ["id", "goal", "beliefs", "operation", "output"]
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Additional metadata for the sequence"
+    }
+  },
+  "required": ["id", "title", "rows"]
+}
