@@ -1,0 +1,1456 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/workspace/SimForge/backend']
+INFO:     Uvicorn running on http://0.0.0.0:12000 (Press CTRL+C to quit)
+INFO:     Started reloader process [12255] using WatchFiles
+INFO:     Started server process [12259]
+INFO:     Waiting for application startup.
+2025-05-09 00:54:16.005 | INFO     | main:startup_event:39 - Starting SimForge API
+2025-05-09 00:54:16.005 | INFO     | main:startup_event:40 - API documentation available at http://0.0.0.0:12000/docs
+2025-05-09 00:54:16.005 | INFO     | main:startup_event:41 - LLM provider: openai, model: gpt-4
+INFO:     Application startup complete.
+INFO:     10.2.62.139:45154 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45154 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:43590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:43590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:43590 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.19.133:43590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:43590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:48794 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:48794 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:48794 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:48794 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37340 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37340 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37340 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.19.133:48264 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:48264 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:48264 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:48264 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:48264 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.19.133:48264 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:48264 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:44404 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:44404 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:41766 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:41766 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:41766 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:41766 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:41766 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:41766 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:52948 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:52948 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:52948 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:52948 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:51282 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:51282 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:51282 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:51282 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:51282 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:51282 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:55286 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:55286 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:55286 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:55286 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:55286 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:55286 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56070 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56070 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56070 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56070 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:48544 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:48544 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:53986 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:53986 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:52898 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:52898 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:49356 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:49356 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:49356 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:49356 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:49356 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:51096 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:49356 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:51096 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:51096 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.62.139:51096 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:49356 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:51096 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:49356 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:51096 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.13.15:59600 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:59600 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:36746 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:36746 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:59688 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:59688 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:59688 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:59688 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:59688 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:59688 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:38378 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:38378 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:38378 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:38378 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38008 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38008 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:33088 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:33088 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:33088 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:33088 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:33088 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:33088 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:57052 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:57052 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37466 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37466 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:45062 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:45062 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:45062 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37466 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37466 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37466 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37466 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:56454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:56454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:56454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:56454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:46502 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:46502 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:46502 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:46502 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:46502 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:46502 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:60158 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:60158 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:47578 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:47578 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:47578 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:47578 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37632 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37632 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37632 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37632 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37632 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.65.139:43138 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:43138 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:43138 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:43138 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:58546 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:58546 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:50994 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:50994 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:50994 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:50994 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:59950 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:59950 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:33200 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:33200 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:33200 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:33200 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:33200 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:33200 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:33200 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:33200 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:57714 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:57714 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:43628 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:43628 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:43628 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:43628 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:52532 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:52532 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:59356 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:59356 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:59356 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:59356 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:39416 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:39416 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:39416 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:39416 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:39416 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:39416 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:48280 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:48280 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:48280 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:48280 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54004 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54004 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54004 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.65.139:48280 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:48280 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:48280 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:48280 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:38556 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:38556 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:36986 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:36986 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:36986 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:36986 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:47600 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:47600 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56378 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56378 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56378 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56378 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:57440 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:57440 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:38434 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:38434 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:38434 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:38434 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:52266 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:52266 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:52266 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:52266 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:52266 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:52266 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:46680 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:46680 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:46680 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:46680 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:33976 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:33976 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:33976 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:33976 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:33976 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:33976 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:35480 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:35480 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:35480 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:35480 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:35480 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:35480 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:43442 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:43442 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:43442 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:43442 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:35888 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:35888 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54216 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54216 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54216 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54216 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54216 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54216 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:49252 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:49252 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:49252 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:49252 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:45002 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:45002 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:45002 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:45002 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:45002 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:45002 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:34352 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:34352 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:56260 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:56260 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:56260 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:56260 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:60568 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:60568 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:60568 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:60568 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:43030 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:43030 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:44204 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:44204 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:44204 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:44204 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:44204 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:44204 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:54618 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:54618 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:54618 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:54618 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:57570 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:57570 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:39998 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:39998 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:39998 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:39998 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45252 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45252 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:33038 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:33038 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:54024 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:54024 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:54024 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.62.139:51918 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:51918 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:51918 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:51918 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:36532 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:36532 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:41384 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:41384 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:41384 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:41384 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:41384 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:41384 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:41384 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:41384 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:34868 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:34868 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:34868 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:34868 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:56976 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:56976 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:57528 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:57528 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:57528 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:57528 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:51208 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:51208 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:51208 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:51208 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:51208 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:51208 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:32780 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:32780 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:38258 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:38258 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:36240 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:36240 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:36242 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:36242 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:40922 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:40922 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:40922 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:40922 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:40922 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:40922 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:40922 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:40922 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:42748 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:42748 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:42748 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:42748 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:42748 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:42748 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56970 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56970 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:36874 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:36874 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:53898 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:53898 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:51256 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:51256 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:51256 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:51256 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:38624 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:38624 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:38624 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:38624 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:49390 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:49390 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:44324 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:44324 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:52070 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:52070 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:41802 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:41802 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:41802 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:41802 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:47798 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:47798 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:54768 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:54768 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:54768 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:54768 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:39184 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:39184 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:39184 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:39184 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:39184 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:39184 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:34744 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:34744 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:34744 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:34744 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:34744 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:34744 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:32782 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:32782 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:32782 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:32782 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:58740 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:58740 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:51392 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:51392 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:51392 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:51392 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:36362 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:36362 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:55376 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:55376 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:55376 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:55376 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:52842 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:52842 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:52842 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:52842 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:49082 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:49082 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:33918 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:33918 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:33918 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:33918 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:53622 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:53622 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:43986 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:43986 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:43986 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:43986 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:59380 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:59380 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:56172 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:56172 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:56172 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:56172 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:40796 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:40796 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:40796 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:38714 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:40796 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:38714 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:38714 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.64.14:40796 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:40796 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:46896 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:46896 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:46896 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:46896 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:46896 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:46896 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:52930 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:52930 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:52930 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:52930 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:39840 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:39840 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:51896 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:51896 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:51896 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:51896 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:55356 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:55356 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:55356 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:55356 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:55356 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:55356 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:58930 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:58930 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:58930 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:58930 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:58930 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:58930 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:58930 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:57868 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:57868 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:57868 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:57868 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:57868 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.64.14:52558 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:52558 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:52558 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:52558 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:34368 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:34368 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:38356 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:38356 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:38356 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:38356 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:41592 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:41592 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:41592 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:41592 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:41592 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:41592 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:39874 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:39874 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:40972 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:40972 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:45042 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:45042 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:55332 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:55332 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:55332 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:55332 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45430 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45430 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:34184 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:34184 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:34184 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:34184 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:36118 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:36118 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:36126 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:36126 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:36126 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:36126 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:38412 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:38412 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:36946 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:36946 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:36946 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:36946 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:36854 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:36854 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:48476 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:48476 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:48476 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:48476 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38596 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38596 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38596 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38596 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38596 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38596 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:47318 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:47318 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:48194 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:48194 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:56178 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:56178 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41964 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41964 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41964 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41964 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41964 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41964 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:47450 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:47450 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:36590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:36590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:36590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:36590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:36590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:36590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:59544 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:59544 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:59544 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:59544 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:53216 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:53216 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:53216 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:53216 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:53216 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:53216 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:35384 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:35384 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:35384 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:35384 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:35384 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:35384 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:47254 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:47254 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:47254 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:47254 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:35326 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:35326 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:35326 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:35326 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:36046 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:36046 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:36046 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:54454 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:54454 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:35938 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:35938 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:35938 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:35938 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:35938 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:35938 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:35938 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:35938 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:35938 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:35938 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:41590 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:41590 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.13.15:45494 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:45494 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.13.15:45494 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:37808 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:37808 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:52084 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:52084 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:52084 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:52084 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:52700 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:52700 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56224 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56224 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56224 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56224 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56224 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56224 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56224 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56224 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56224 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56224 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56224 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56224 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56224 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56224 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56224 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56224 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:46952 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:46952 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55452 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55452 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55098 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55098 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55098 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55098 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55098 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55098 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:55098 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:55098 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:56488 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:56488 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:56488 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:34860 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:34860 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:34860 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40176 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40176 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:34406 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:34406 - "GET /docs HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/__init__.py', 'app/services/visualization/graph.py', 'app/tests/test_generator.py', 'app/core/prompts/templates.py', 'app/core/schema/cognition.py', 'app/services/visualization/__init__.py', 'app/api/routes/__init__.py', 'app/api/routes/generation.py', 'app/services/llm/__init__.py', 'app/api/routes/health.py', 'app/tests/__init__.py', 'main.py', 'app/services/memory/storage.py', 'app/core/prompts/__init__.py', 'app/core/engine/generator.py', 'app/core/utils/__init__.py', 'app/core/utils/config.py', 'app/core/engine/__init__.py', 'app/core/schema/__init__.py', 'app/services/memory/__init__.py', 'app/services/llm/provider.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+2025-05-09 01:27:11.670 | INFO     | main:shutdown_event:45 - Shutting down SimForge API
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12259]
+INFO:     Started server process [17611]
+INFO:     Waiting for application startup.
+2025-05-09 01:27:12.233 | INFO     | main:startup_event:39 - Starting SimForge API
+2025-05-09 01:27:12.233 | INFO     | main:startup_event:40 - API documentation available at http://0.0.0.0:12000/docs
+2025-05-09 01:27:12.233 | INFO     | main:startup_event:41 - LLM provider: openai, model: gpt-4
+INFO:     Application startup complete.
+INFO:     10.2.62.139:52432 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:52432 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:52432 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:52432 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:52432 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:52432 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:52432 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:52432 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:52432 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:52432 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:52432 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:52432 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:51886 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:51886 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38104 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38104 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56300 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56300 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56300 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56300 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56300 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56300 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56300 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56300 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56300 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56300 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56300 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56300 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56300 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56300 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56300 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56300 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56300 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56300 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:56300 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:56300 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38934 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38934 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38940 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38940 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:38940 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:38940 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.19.133:46204 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.19.133:46204 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:56768 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:56768 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.64.14:56768 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.64.14:56768 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:35988 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:35988 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:35988 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:35988 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:35988 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:35988 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:33022 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:33022 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.65.139:33022 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.65.139:33022 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:43704 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:43704 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:43704 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:43704 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:43704 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:43704 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:43704 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:43704 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:43704 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:43704 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:35846 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:35846 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:58498 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:58498 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:45422 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:45422 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40734 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40734 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40734 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40734 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40734 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40734 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40734 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40734 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:40734 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:40734 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     10.2.62.139:44956 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.2.62.139:44956 - "GET / HTTP/1.1" 307 Temporary Redirect
