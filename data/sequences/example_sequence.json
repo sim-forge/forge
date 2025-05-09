@@ -1,0 +1,73 @@
+{
+  "id": "seq-001",
+  "title": "Problem Solving: Finding the Optimal Route",
+  "description": "A sequence demonstrating how an agent would find the optimal route between two locations.",
+  "created_at": "2025-05-08T10:00:00Z",
+  "updated_at": "2025-05-08T10:30:00Z",
+  "rows": [
+    {
+      "id": 1,
+      "goal": "Define the problem and gather initial information",
+      "beliefs": [
+        {"content": "I need to find the optimal route from point A to point B", "confidence": 1.0},
+        {"content": "Optimal could mean shortest distance, shortest time, or least cost", "confidence": 0.9},
+        {"content": "There are multiple possible routes between A and B", "confidence": 0.95}
+      ],
+      "operation": "Clarify the definition of 'optimal' for this specific problem",
+      "output": "For this problem, 'optimal' means the route with the shortest travel time."
+    },
+    {
+      "id": 2,
+      "goal": "Identify available routes and their characteristics",
+      "beliefs": [
+        {"content": "The optimal route is the one with the shortest travel time", "confidence": 1.0},
+        {"content": "There are at least three possible routes between A and B", "confidence": 0.8},
+        {"content": "Traffic conditions affect travel time", "confidence": 0.95},
+        {"content": "Current traffic data is available", "confidence": 0.7}
+      ],
+      "operation": "Gather information about possible routes and current traffic conditions",
+      "output": "Identified three routes: Highway (50 miles, current traffic heavy), Scenic (65 miles, light traffic), Urban (45 miles, moderate traffic)."
+    },
+    {
+      "id": 3,
+      "goal": "Calculate estimated travel time for each route",
+      "beliefs": [
+        {"content": "Highway route is 50 miles with heavy traffic", "confidence": 0.9},
+        {"content": "Scenic route is 65 miles with light traffic", "confidence": 0.9},
+        {"content": "Urban route is 45 miles with moderate traffic", "confidence": 0.9},
+        {"content": "Average speeds: Highway (heavy): 40mph, Scenic (light): 50mph, Urban (moderate): 30mph", "confidence": 0.8}
+      ],
+      "operation": "Calculate travel time for each route using distance and estimated average speed",
+      "output": "Estimated travel times: Highway: 1h15m, Scenic: 1h18m, Urban: 1h30m"
+    },
+    {
+      "id": 4,
+      "goal": "Evaluate additional factors that might affect the decision",
+      "beliefs": [
+        {"content": "Highway route has the shortest estimated travel time (1h15m)", "confidence": 0.9},
+        {"content": "Travel time estimates have a margin of error", "confidence": 0.8},
+        {"content": "Fuel consumption and tolls might affect the overall cost", "confidence": 0.7},
+        {"content": "Driver preference (scenic views vs. direct route) might be relevant", "confidence": 0.6}
+      ],
+      "operation": "Assess additional factors for each route",
+      "output": "Highway: 2 tolls, highest fuel efficiency. Scenic: No tolls, moderate fuel consumption, pleasant views. Urban: No tolls, lowest fuel efficiency, multiple stops."
+    },
+    {
+      "id": 5,
+      "goal": "Make a final decision on the optimal route",
+      "beliefs": [
+        {"content": "Highway route has the shortest travel time (1h15m)", "confidence": 0.9},
+        {"content": "Highway route has tolls but good fuel efficiency", "confidence": 0.85},
+        {"content": "Scenic route is close in time (1h18m) with no tolls and better views", "confidence": 0.85},
+        {"content": "Urban route is the longest time (1h30m) with frequent stops", "confidence": 0.9},
+        {"content": "The time difference between Highway and Scenic is minimal", "confidence": 0.95}
+      ],
+      "operation": "Weigh all factors and select the optimal route",
+      "output": "Selected the Scenic route as optimal. While it's 3 minutes longer than the Highway route, it avoids tolls, offers pleasant views, and has more predictable travel time due to lighter traffic."
+    }
+  ],
+  "metadata": {
+    "tags": ["route-planning", "decision-making", "optimization"],
+    "version": "1.0"
+  }
+}
